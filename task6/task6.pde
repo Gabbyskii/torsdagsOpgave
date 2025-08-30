@@ -9,6 +9,7 @@ int y;
 int counter = 0;
 int rowCounter = 0;
 
+
 int red = 255;
 int green = 255;
 int blue = 255;
@@ -25,11 +26,9 @@ void draw(){
   
   x = circleSize*counter;
   y = circleSize*rowCounter;
- 
- // Un-comment this line after completing step 6.a 
-   fill(red,green,blue);
-   
-   ellipse(x,y,circleSize,circleSize);
+  
+  fill(red,green,blue);
+  ellipse(x,y,circleSize,circleSize);
    
   
   // Explaining conditional assignments. 
@@ -37,7 +36,7 @@ void draw(){
   // If this is true, the value after the ?-mark will be assigned. 
   // If not, the last value will.
   counter =  frameCount % numberOfCircles == 0 ? 0 : counter+1;
-  rowCounter =  counter==0 ? rowCounter+1:rowCounter;
+  rowCounter =  counter== 0 ? rowCounter+1:rowCounter;
   
   
   // Explaining the modulus operator
@@ -47,6 +46,9 @@ void draw(){
   // 3 % 3 = 0
  
   //Add the code for 6.c here
+  red = counter == 0 ? (int)random(255) : red;
+  green = counter == 0 ? (int)random(255) : green;  
+  blue = counter == 0 ? (int)random(255) : blue;
   
   
 }
