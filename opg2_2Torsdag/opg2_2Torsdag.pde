@@ -10,7 +10,6 @@ println(age);
 boolean happy = true;
 
 //2.d
-// Udskriv i konsollen
   println("Hi, my name is " + name);
   println("I am " + age + " years old");
 
