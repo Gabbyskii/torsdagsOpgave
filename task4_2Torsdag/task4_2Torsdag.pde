@@ -21,21 +21,21 @@ void setup() {
     }
     //4.d
     else {
-      String counterAsString="";
+      String c="";
       switch(i) {
       case 3:
-        counterAsString = "three";
+        c= "three";
         break;
       case 2:
-        counterAsString = "two";
+        c= "two";
         break;
       case 1:
-        counterAsString = "one";
+        c= "one";
         break;
       default:
-        counterAsString = str(i);  //konvertere mine tal til string
+        c= str(i);  //konvertere mine tal til string
       }
-      println(counterAsString);
+      println(c);
     }
   }
 }
