@@ -23,13 +23,11 @@ println("Failure!");
 //3.c
 /*int x = 5*2;
 int y = 5*2;
-<<<<<<< HEAD
 int z = 5*2;*/
+
 int x = 4;
 int y = 15;
 int z = 11;
-=======
-int z = 5*2;
 //eller modulus 30%10 == 0.
 
 
