@@ -27,11 +27,16 @@ summen af dem er 30, men ingen af dem har værdien 10, 20 eller 30.
 Ellers print "Failure!".*/
 
 //3.c
-int x = 5*2;
+/*int x = 5*2;
 int y = 5*2;
-int z = 5*2;
+int z = 5*2;*/
+int x = 4;
+int y = 15;
+int z = 11;
 
-if (x==10 && y==10 && z==10){
+boolean sumIs30 = (x+y+z==30);
+
+if (sumIs30){
 println("Success!");
 }
 else {
