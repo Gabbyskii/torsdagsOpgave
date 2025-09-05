@@ -5,7 +5,7 @@ int days= 0;
 void setup() {
   size(400, 400);
 }
-
+//1.b
 void draw() {
   switch(month) {
   case "Januar":
