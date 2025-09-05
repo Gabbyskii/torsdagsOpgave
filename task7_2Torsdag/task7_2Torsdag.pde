@@ -14,9 +14,7 @@ void setup() {
     }
   }
 
-  /*7.b Koden kører ikke når man skriver minus værdier fx input = -20; 
-  loopen starter aldrig. Men det fungerer med fx input = 6;*/
-
+  //7.b - ændret tal til 6.
  int inputB = 6;
 
   for (int i = inpuBt; i >= 0; i--) {
