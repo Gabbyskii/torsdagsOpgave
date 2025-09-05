@@ -9,7 +9,7 @@ void methodOne()
 {
   int i = 1000; // You are not allowed to change this line. 
   
-  int max = 800; //tilføjede nummer 800
+  int max = 10;
   
   if (i > max)
   {
