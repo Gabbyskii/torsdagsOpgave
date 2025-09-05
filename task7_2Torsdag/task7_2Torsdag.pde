@@ -17,10 +17,10 @@ void setup() {
   /*7.b Koden kører ikke når man skriver minus værdier fx input = -20; 
   loopen starter aldrig. Men det fungerer med fx input = 6;*/
 
- int input = 6;
+ int inputB = 6;
 
-  for (int i = input; i >= 0; i--) {
-    if (i == input / 2) { //input/2 = 3
+  for (int i = inpuBt; i >= 0; i--) {
+    if (i == inputB / 2) { //input/2 = 3
       println("HALF!");
     } 
     else if (i == 6) {
