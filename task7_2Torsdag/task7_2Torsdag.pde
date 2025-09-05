@@ -17,7 +17,7 @@ void setup() {
   //7.b - ændret tal til 6.
  int inputB = 6;
 
-  for (int i = inpuBt; i >= 0; i--) {
+  for (int i = inpuB; i >= 0; i--) {
     if (i == inputB / 2) { //input/2 = 3
       println("HALF!");
     } 
