@@ -24,6 +24,8 @@ println("Failure!");
 int x = 5*2;
 int y = 5*2;
 int z = 5*2;
+//eller modulus 30%10 == 0.
+
 
 if (x==10 && y==10 && z==10){
 println("Success!");
