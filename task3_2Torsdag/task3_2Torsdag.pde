@@ -20,12 +20,6 @@ else {
 println("Failure!");
 }
 
-
-/*3.c lav 3 integer variable kaldet x, y and z. 
-Print "Success!" hvis følgende betingelse er opfyldt: 
-summen af dem er 30, men ingen af dem har værdien 10, 20 eller 30. 
-Ellers print "Failure!".*/
-
 //3.c
 int x = 5*2;
 int y = 5*2;
